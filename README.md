@@ -91,7 +91,7 @@ Essa aplicação está utilizando Migration para seed em tabelas.
 
 A aplicação não possui a implementação de verbo DELETE, PATH e PUT, uma vez que o GET paginado e o POST foi implementado os demais verbos são de simples implementação, ao invés disso preferi dar destaque a componentes de maior relevância, como arquitetura, segurança, documentação, estruturação distribuída (seja ela cloud, docker ou VM).  
 A estruturação dentro do docker tem como intuito a inclusão de componentes voltados para observabilidade como uso do Prometheus e Grafana.  
-Para o teste, foi gerado um único teste a título de demonstração do uso de BDD implementando o padrão Gerkin.
+Na parte de o teste unitário, foi gerado um único teste na intenção de demonstrar do uso do conceito de BDD e o padrão Gerkin.
 
 
 ## Autores
