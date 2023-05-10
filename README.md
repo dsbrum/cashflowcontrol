@@ -93,6 +93,7 @@ A aplicação não possui a implementação de verbo DELETE, PATH e PUT, uma vez
 A estruturação dentro do docker tem como intuito a inclusão de componentes voltados para observabilidade como uso do Prometheus e Grafana.  
 Para o teste, foi gerado um único teste a título de demonstração do uso de BDD implementando o padrão Gerkin.
 
+![auth Screenshot](images/MacroArqExp.jpg)
 
 ## Autores
 
