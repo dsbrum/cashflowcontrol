@@ -31,7 +31,7 @@ Para rodar esse projeto, você vai precisar adicionar as seguintes variáveis de
 
 É necessário previamente rodar o docker compose para subir as dependências externas do projeto, logo na pasta raiz do projeto onde está o arquivo docker-compose.yaml executará o comando:
 ````bash 
- docker-compose up 
+ docker-compose up -d
 ```` 
 Assim que realizar o do os downloads das imagens, extrair e subir os containers dentro da rede.
 
