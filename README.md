@@ -43,7 +43,7 @@ Realize o import do projeto em sua IDE de preferência, após êxito no import, 
 Uma vez que o projeto está em execução, há duas maneiras de realizar os testes de consumo da API:
 <br /> 1: exportar o json gerado na url do swagger http://localhost:8080/v3/api-docs e consumi-los no Insomnia ou Postman
 <br /> 2: Realizar as requisições através da interface do swagger:
-<br /> na segunda opção já um usuário admin default configurado, admin:admin no serviço de autenticação habilite a execução do serviço clicando no botão try it out
+<br /> na segunda opção há um usuário admin default configurado, admin:admin, no serviço de autenticação habilite a execução do serviço clicando no botão try it out
 
 ![swagger Screenshot](images/Login1.jpg)
 
