@@ -7,4 +7,5 @@ import org.springframework.data.jpa.repository.Query;
 
 public interface MovimentoRepository extends JpaRepository<Movimento, Long> {
 
+    Page<Movimento> findByClienteId(Long idCliente, Pageable paginacao);
 }
