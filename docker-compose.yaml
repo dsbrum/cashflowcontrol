@@ -14,14 +14,16 @@ services:
     restart: unless-stopped
     environment:
       MYSQL_DATABASE: 'cashflow'
-      MYSQL_USER: 'root'
-      MYSQL_PASSWORD: 'root'
+      MYSQL_USER: 'cashflowuser'
+      MYSQL_PASSWORD: 'cashflowpsd'
       MYSQL_RANDOM_ROOT_PASSWORD: 'yes'
       MYSQL_ROOT_HOST: '%'
     volumes:
       - ./mysql:/docker-entrypoint-initdb.d
-    expose:
-      - 3306
+#    expose:
+#      - 3306
+    ports:
+      - 3306:3306
     networks:
       - database
 
