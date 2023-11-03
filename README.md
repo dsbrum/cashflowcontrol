@@ -43,7 +43,7 @@ Realize o import do projeto em sua IDE de preferência, após êxito no import, 
 Uma vez que o projeto está em execução, há duas maneiras de realizar os testes de consumo da API:
 <br /> 1: exportar o json gerado na url do swagger http://localhost:8080/v3/api-docs e consumi-los no Insomnia ou Postman
 <br /> 2: Realizar as requisições através da interface do swagger:
-<br /> na segunda opção já um usuário admin default configurado, admin:admin no serviço de autenticação habilite a execução do serviço clicando no botão try it out
+<br /> na segunda opção há um usuário admin default configurado, admin:admin, no serviço de autenticação habilite a execução do serviço clicando no botão try it out
 
 ![swagger Screenshot](images/Login1.jpg)
 
@@ -91,7 +91,7 @@ Essa aplicação está utilizando Migration para seed em tabelas.
 
 A aplicação não possui a implementação de verbo DELETE, PATH e PUT, uma vez que o GET paginado e o POST foi implementado os demais verbos são de simples implementação, ao invés disso preferi dar destaque a componentes de maior relevância, como arquitetura, segurança, documentação, estruturação distribuída (seja ela cloud, docker ou VM).  
 A estruturação dentro do docker tem como intuito a inclusão de componentes voltados para observabilidade como uso do Prometheus e Grafana.  
-Para o teste, foi gerado um único teste a título de demonstração do uso de BDD implementando o padrão Gerkin.
+Na parte de o teste unitário, foi gerado um único teste na intenção de demonstrar do uso do conceito de BDD e o padrão Gerkin.
 
 ![auth Screenshot](images/MacroArqExp.jpg)
 
